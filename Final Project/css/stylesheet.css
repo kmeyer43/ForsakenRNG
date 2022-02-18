@@ -1,0 +1,368 @@
+#body {
+  background-image: url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#forums-body {
+  background-color: #000;
+}
+#forums {
+  background-image: url(./images/coming_soon.jpg);
+  background-color: #000;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+#members-body {
+  background-color: #000;
+}
+#members {
+  background-image: url(./images/coming_soon.jpg);
+  background-color: #000;
+  background-repeat: no-repeat;
+
+}
+h1 {
+  color: #EB0D02;
+  font-size: 50px;
+}
+h2 {
+  color: #EB0D02;
+  font-size: 40px;
+  /*background-color: #0E052B;*/
+}
+main {
+  margin: 100px 0 75px 0;
+}
+nav > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  background-color: #3513A1;
+  border: 1px solid #999;
+  float: left;
+  margin-right: 19px;
+  height: 30px;
+  text-align: center;
+  width: 13%;
+}
+nav {
+  width: 100%;
+  height: 32px;
+}
+nav a {
+  font-size: 25px;
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+nav a:link {
+  color: #970F08;
+}
+nav a:visited {
+  color: #EB0D02;
+}
+nav a:hover, nav a:focus {
+  color: #FFF;
+}
+table {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  width: 525px;
+  height: 175px;
+  text-align: center;
+}
+th {
+  background-color: #000;
+  color: #FFF;
+  text-align: center;
+}
+td:last-child, th:last-child {
+  text-align: center;
+}
+tr:nth-child(even) {
+  background-color: #F3F3F3;
+}
+tr:nth-child(odd) {
+  background-color: #DDD;
+}
+p {
+  color: #EB0D02;
+}
+footer > a:link {
+  color: #EB0D02;
+}
+footer > a:visited {
+  color: #970F08;
+}
+footer > a:hover, a:focus {
+  color: #FFF;
+}
+footer > small {
+  color: #FFF;
+}
+footer {
+  padding-top: 5%;
+}
+fieldset {
+  padding: 0 0 1em 0;
+  margin: 0 0 10px 0;
+}
+label {
+  display: block;
+  padding: 10px;
+  color: #EB0D02;
+}
+legend {
+  color: #EB0D02;
+}
+#twitch-embed {
+  margin-bottom: 50px;
+  padding: 5%;
+}
+#twitch-mobile {
+  display: none;
+}
+#Schedule {
+  margin: 75px 0 100px 10px;
+}
+#About {
+  color: #FFF;
+  font-size: 20px;
+}
+#Calendar {
+  margin: 50px 0 50px 10px;
+  padding: 5%;
+}
+#calendar-mobile {
+  display: none;
+}
+#streamers > a {
+  font-size: 20px;
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  width: 7%;
+  margin: 0 0 10px 10px;
+  text-align: center;
+  border: 1px solid #999;
+  background-color: #0E052B
+}
+#streamers > a:link {
+  color: #EB0D02;
+}
+#streamers > a:visited {
+  color: #970F08;
+}
+#streamers > a:hover, a:focus {
+  color: #FFF;
+}
+#Table {
+  margin: 75px 0 100px 10px;
+}
+/*For Smartphones*/
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url(./images/web_background.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000;
+  }
+  nav li {
+    background: none;
+    list-style: none;
+    border: none;
+    display: inline-block;
+    font-size: 120%;
+    margin: 1%;
+    padding: 5%;
+    text-align: left;
+    width: 10em;
+    height: 15px;
+  }
+  nav {
+    background: none;
+    list-style: none;
+    border: none;
+    text-align: left;
+  }
+  nav a {
+    font-size: 25px;
+    text-decoration: none;
+    display: block;
+  }
+  main {
+    margin-top: 50px;
+    display: block;
+  }
+  h2 {
+    display: block;
+    font-size: 40px;
+    margin: 1%;
+    padding: 8%;
+  }
+  #About {
+    color: #FFF;
+    font-size: 20px;
+  }
+  #twitch-embed {
+    display: none;
+  }
+  #twitch-mobile {
+    display: block;
+    margin-bottom: 50px;
+    height: 60%;
+    width: 50%;
+  }
+  #calendar {
+    margin: 50px 0 50px 10px;
+    display: none;
+  }
+  #calendar-mobile {
+    display: block;
+  }
+  #calendar-mobile, a:link {
+    color: #970F08;
+  }
+  #calendar-mobile, a:visited {
+    color: #EB0D02;
+  }
+  #calendar-mobile, a:hover, a:focus {
+    color: #FFF;
+  }
+  #forums {
+    background-color: #000;
+    display: none;
+  }
+  #forums-body {
+    background-color: #000;
+  }
+  #members {
+    background-color: #000;
+    display: none;
+  }
+  #members-body {
+    background-color: #000;
+  }
+  #coming-soon {
+    color: #FFF;
+    font-size: 50px;
+    margin: 1%;
+    padding: 10%;
+    text-align: left;
+    float: left;
+  }
+  #streamers > a {
+    font-size: 20px;
+    text-decoration: none;
+    display: inline;
+    height: 100%;
+    width: 7%;
+    margin: 10px 0 10px 10px;
+    border: 1px solid #999;
+    background-color: #0E052B
+  }
+  #streamers > a:link {
+    color: #EB0D02;
+  }
+  #streamers > a:visited {
+    color: #970F08;
+  }
+  #streamers > a:hover, a:focus {
+    color: #FFF;
+  }
+  table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 100%;
+    height: 175px;
+    text-align: center;
+    margin: 0 0 30px 0;
+  }
+  th {
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+  }
+  td:last-child, th:last-child {
+    text-align: center;
+  }
+  tr:nth-child(even) {
+    background-color: #F3F3F3;
+  }
+  tr:nth-child(odd) {
+    background-color: #DDD;
+  }
+  footer > a:link {
+    color: #EB0D02;
+  }
+  footer > a:visited {
+    color: #970F08;
+  }
+  footer > a:hover, a:focus {
+    color: #FFF;
+  }
+  footer > small {
+    color: #FFF;
+    /*padding:5%;*/
+    margin-top: 5%;
+    float: left;
+  }
+}
+/* 
+For Tablets */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  body {
+    background-image: url(./images/web_background.gif);
+    background-size: auto;
+    background-color: #000;
+    display: none;
+  }
+  #body {
+    background-image: url(./images/4k_background.gif);
+    background-position: center;
+    background-size: 100%;
+  }
+  #forums {
+    background-color: #000;
+    display: none;
+  }
+  #forums-body {
+    background-color: #000;
+  }
+  #members {
+    background-color: #000;
+    display: none;
+  }
+  #members-body {
+    background-color: #000;
+
+  }
+  #coming-soon {
+    color: #FFF;
+    font-size: 50px;
+    margin: 1%;
+    padding: 10%;
+    text-align: left;
+    float: left;
+  }
+  footer > a:link {
+    color: #EB0D02;
+  }
+  footer > a:visited {
+    color: #970F08;
+  }
+  footer > a:hover, a:focus {
+    color: #FFF;
+  }
+  footer > small {
+    color: #FFF;
+    padding:5%;
+    margin-top: 5%;
+    float: left;
+  }
+}
